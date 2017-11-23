@@ -1,0 +1,191 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    text-align: center;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-align: center;
+    color: blue;
+    text-shadow: 3px 3px 3px black;
+}
+#result{
+    width:200px;
+    height: 50px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin: auto;
+}
+#recovery{
+    width: 350px;
+    height: 355px;
+    position: absolute;
+    left: 55%;
+    border: solid 1px black;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+}
+#picture{
+    width: 350px;
+    height: 355px;
+    margin-left: 20%;
+    margin-right: auto;
+    position: relative;
+}
+#start{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #4286F5;
+    color: white;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px black;
+    font-size: 18px;
+    opacity: 0.7;
+    margin-left: 36.4%;
+}
+#start:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+#change{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #4286F5;
+    color: white;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px black;
+    font-size: 18px;
+    opacity: 0.7;
+    margin-left: 55%;
+    margin-top: -38.75px;
+}
+#change:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+h1, #result,#start{
+    margin-top: 30px;
+}
+/*图片分块*/
+.picture_part0,.recovery0{
+    background: url("panda.jpg") no-repeat;
+}
+.picture_part1, .recovery1{
+    background: url("airship.jpg") no-repeat;
+}
+.picture_part2, .recovery2{
+    background: url("cat.jpeg") no-repeat;
+}
+.picture_part0, .picture_part1, .picture_part2{
+    border: solid 1px black;
+    width: 83px;
+    height: 83px;
+    position: absolute;
+    -webkit-transition-duration: 0.5s;
+    opacity: 0.9;
+    margin-bottom: -4px;
+    display: inline-block;
+}
+.picture_part0:hover{
+    opacity: 1;
+    transform: scale(1.05);
+}
+.picture_part1:hover{
+    opacity: 1;
+    transform: scale(1.05);
+}
+.picture_part2:hover{
+    opacity: 1;
+    transform: scale(1.05);
+}
+/*图片分区*/
+.picture_1, .picture_2, .picture_3, .picture_4{
+    top: 0;
+}
+.picture_5, .picture_6, .picture_7, .picture_8{
+    top: 85px;
+}
+.picture_9, .picture_10, .picture_11, .picture_12{
+    top: 170px;
+}
+.picture_13, .picture_14, .picture_15, .picture_16{
+    top: 255px;
+}
+.picture_1, .picture_5, .picture_9, .picture_13{
+    left: 0px;
+}
+.picture_2, .picture_6, .picture_10, .picture_14{
+    left: 85px;
+}
+.picture_3, .picture_7, .picture_11, .picture_15{
+    left: 170px;
+}
+.picture_4, .picture_8, .picture_12, .picture_16{
+    left: 255px;
+}
+#_picture_1{
+    background-position: 0px 0px;
+}
+#_picture_2{
+    background-position: -85px 0px;
+}
+#_picture_3{
+    background-position: -169px 0px;
+}
+#_picture_4{
+    background-position: -253px 0px;
+}
+#_picture_5{
+    background-position: 0px -84px;
+}
+#_picture_6{
+    background-position: -85px -84px; 
+}
+#_picture_7{
+    background-position: -169px -84px;
+}
+#_picture_8{
+    background-position: -253px -84px;
+}
+#_picture_9{
+    background-position: 0px -168px;
+}
+#_picture_10{
+    background-position: -85px -168px;
+}
+#_picture_11{
+    background-position: -169px -168px;
+}
+#_picture_12{
+    background-position: -253px -168px;
+}
+#_picture_13{
+    background-position: 0px -252px;
+}
+#_picture_14{
+    background-position: -85px -252px;
+}
+#_picture_15{
+    background-position: -169px -252px;
+}
+#_picture_16{
+    opacity: 0;
+    background-position: -253px -252px;
+    background-image: none;
+}
+.test{
+    background-color: green;
+    border: solid 1px black;
+    width: 83px;
+    height: 83px;
+    position: absolute;
+    -webkit-transition-duration: 0.5s;
+    opacity: 0.9;
+    margin-bottom: -4px;
+    display: inline-block;
+}
